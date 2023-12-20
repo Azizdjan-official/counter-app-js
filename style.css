@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.launch-time
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+    font-weight: 900;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.divs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.video
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.vid
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    object-fit: cover;
+}
+.given-time
+{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
